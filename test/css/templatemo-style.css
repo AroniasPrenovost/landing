@@ -110,7 +110,7 @@ http://www.templatemo.com/tm-515-eatery
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+/*    height: 100%;*/
   }
 
   section {
@@ -399,8 +399,8 @@ http://www.templatemo.com/tm-515-eatery
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: cover;
-  /*  height: 650px;*/
-  height:100vh;
+    height: 675px;
+/*  height:100vh;*/
   }
 
   .slider .item-first {
@@ -563,9 +563,9 @@ http://www.templatemo.com/tm-515-eatery
     transition: 0.5s;
   }
 
-  .menu-thumb:hover img {
+/*  .menu-thumb:hover img {
     transform: scale(1.15);
-  }
+  }*/
 
   #menu .menu-thumb {
     overflow: hidden;
@@ -582,7 +582,7 @@ http://www.templatemo.com/tm-515-eatery
     bottom: 0px;
     text-align: left;
     padding: 25px 30px;
-    transition: 0.5s 0.2s;
+    transition: 0.4s 0.2s;
   }
 
   .menu-info .menu-item {
