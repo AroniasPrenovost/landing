@@ -119,7 +119,7 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   #team, 
-  #menu,
+  #creations,
   #testimonial {
     text-align: center;
   }
@@ -205,7 +205,7 @@ http://www.templatemo.com/tm-515-eatery
 
 
   /*---------------------------------------
-      MENU              
+      creations              
   -----------------------------------------*/
 
   .custom-navbar {
@@ -542,39 +542,39 @@ http://www.templatemo.com/tm-515-eatery
 
 
   /*---------------------------------------
-     MENU              
+     creations              
   -----------------------------------------*/
 
-  #menu {
+  #creations {
     padding-bottom: 0;
   }
 
-  #menu .container {
+  #creations .container {
     width: 100%;
   }
 
-  #menu .col-md-4 {
+  #creations .col-md-4 {
     margin: 0;
     padding: 0;
   }
 
-  .menu-thumb img {
+  .creations-thumb img {
     width: 100%;
     transition: 0.5s;
   }
 
-/*  .menu-thumb:hover img {
+/*  .creations-thumb:hover img {
     transform: scale(1.15);
   }*/
 
-  #menu .menu-thumb {
+  #creations .creations-thumb {
     overflow: hidden;
     position: relative;
     cursor: pointer;
     width: 102%;
   }
 
-  .menu-thumb .menu-info {
+  .creations-thumb .creations-info {
     position: absolute;
     top: 60%;
     left: 0px;
@@ -585,15 +585,15 @@ http://www.templatemo.com/tm-515-eatery
     transition: 0.4s 0.2s;
   }
 
-  .menu-info .menu-item {
+  .creations-info .creations-item {
     float: left;
   }
 
-  .menu-info .menu-price {
+  .creations-info .creations-price {
     float: right;
   }
 
-  .menu-info .menu-price span {
+  .creations-info .creations-price span {
     font-size: 20px;
     font-weight: bold;
     line-height: normal;
@@ -601,9 +601,9 @@ http://www.templatemo.com/tm-515-eatery
     margin-top: 10px;
   }
 
-  .menu-thumb .menu-info h3,
-  .menu-thumb .menu-info p,
-  .menu-thumb .menu-info span {
+  .creations-thumb .creations-info h3,
+  .creations-thumb .creations-info p,
+  .creations-thumb .creations-info span {
     transform: translateY(100%);
     opacity: 0;
     display: block;
@@ -613,11 +613,11 @@ http://www.templatemo.com/tm-515-eatery
     position: relative;
   }
 
-  .menu-thumb .menu-info h3 {
+  .creations-thumb .creations-info h3 {
     margin-top: 0;
   }
 
-  .menu-thumb .menu-info p {
+  .creations-thumb .creations-info p {
     color: #d9d9d9;
     text-transform: uppercase;
     font-size: 10px;
@@ -625,14 +625,14 @@ http://www.templatemo.com/tm-515-eatery
     letter-spacing: 1px;
   }
 
-  .menu-thumb:hover .menu-info h3,
-  .menu-thumb:hover .menu-info p,
-  .menu-thumb:hover .menu-info span {
+  .creations-thumb:hover .creations-info h3,
+  .creations-thumb:hover .creations-info p,
+  .creations-thumb:hover .creations-info span {
     transform: translateY(0px);
     opacity: 1;
   }
 
-  .menu-thumb:hover .menu-info {
+  .creations-thumb:hover .creations-info {
     background: rgba(0,0,0,0.8);
   }
 
@@ -900,7 +900,7 @@ http://www.templatemo.com/tm-515-eatery
       margin-bottom: 50px;
     }
 
-    #menu .menu-thumb {
+    #creations .creations-thumb {
       width: 103%;
     }
 
@@ -975,7 +975,7 @@ http://www.templatemo.com/tm-515-eatery
       padding: 0;
     }
 
-    .menu-thumb .menu-info {
+    .creations-thumb .creations-info {
       top: 80%;
     }
 
@@ -1001,7 +1001,7 @@ http://www.templatemo.com/tm-515-eatery
       font-size: 1.8em;
     }
 
-    .menu-thumb .menu-info {
+    .creations-thumb .creations-info {
       top: 60%;
     }
   }
