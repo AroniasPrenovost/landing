@@ -96,7 +96,7 @@ http://www.templatemo.com/tm-515-eatery
 
   .section-title h4 {
     color: #bfbdbd;
-    font-size: 10px;
+    font-size: 12px;
     letter-spacing: 1px;
     text-transform: uppercase;
     margin-top: 0;
@@ -118,14 +118,14 @@ http://www.templatemo.com/tm-515-eatery
     padding: 100px 0;
   }
 
-  #team, 
+  #shop, 
   #creations,
   #testimonial {
     text-align: center;
   }
 
   .about-image img,
-  .team-thumb img {
+  .shop-thumb img {
     width: 100%;
   }
   
@@ -460,24 +460,24 @@ http://www.templatemo.com/tm-515-eatery
 
 
   /*---------------------------------------
-      TEAM              
+      shop              
   -----------------------------------------*/
 
-  #team {
+  #shop {
     background: #f9f9f9;
   }
 
-  .team-thumb {
+  .shop-thumb {
     position: relative;
     overflow: hidden;
     cursor: pointer;
   }
 
-  .team-info {
+  .shop-info {
     padding: 10px 30px 20px 30px;
   }
 
-  .team-thumb .team-hover {
+  .shop-thumb .shop-hover {
     position: absolute;
     background: #1c1c1c;
     width: 100%;
@@ -492,21 +492,21 @@ http://www.templatemo.com/tm-515-eatery
     transition: 0.5s 0.2s;
   }
 
-  .team-thumb:hover .team-hover {
-    opacity: 0.95;
+  .shop-thumb:hover .shop-hover {
+/*    opacity: 0.95;
     transition-delay: 0.3s;
-    transform: translateY(0);
+    transform: translateY(0);*/
   }
 
-  .team-thumb img {
+  .shop-thumb img {
     transition: 0.5s 0.2s;
   }
 
-  .team-thumb:hover img {
+  .shop-thumb:hover img {
     transform: scale(1.2);
   }
 
-  .team-thumb .social-icon li a {
+  .shop-thumb .social-icon li a {
     background: #292929;
     border-radius: 100%;
     width: 50px;
@@ -517,7 +517,7 @@ http://www.templatemo.com/tm-515-eatery
     margin: 15px 5px 0 5px;
   }
 
-  .team-thumb .team-item {
+  .shop-thumb .shop-item {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -526,11 +526,11 @@ http://www.templatemo.com/tm-515-eatery
     transform: translate(-50%,-50%);
   }
 
-  .team-item h4 {
+  .shop-item h4 {
     color: #ffffff;
   }
 
-  .team-info p {
+  .shop-info p {
     color: #bfbdbd;
     font-size: 12px;
     font-weight: bold;
@@ -620,7 +620,7 @@ http://www.templatemo.com/tm-515-eatery
   .creations-thumb .creations-info p {
     color: #d9d9d9;
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: bold;
     letter-spacing: 1px;
   }
@@ -896,7 +896,7 @@ http://www.templatemo.com/tm-515-eatery
       padding: 0;
     }
 
-    .team-info {
+    .shop-info {
       margin-bottom: 50px;
     }
 
