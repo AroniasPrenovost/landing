@@ -122,7 +122,6 @@
                <div class="row">
 
                     <div class="col-md-6 col-sm-12">
-                          <div id="instafeed"></div>
                          <div class="about-info">
                               <div class="section-title wow fadeInUp" data-wow-delay="0.2s">
                                    <h4>Hand-crafted moss creations</h4>
@@ -495,7 +494,8 @@
                     </div>
           </div>
      </section>          
-
+<div id="insta-feed">
+</div>
 
      <!-- FOOTER -->
      <!-- 
@@ -577,16 +577,42 @@
           </div>
      </footer>
  -->
-<script content-type: application/javascript; charset=utf-8 src="js/instafeed.min.js"></script>
+ 
  <script>
+var request = new XMLHttpRequest();
+     request.open('GET', 'https://api.instagram.com/v1/users/self/media/recent/?access_token=14031756587.1677ed0.a635f592d003409db08cb246133d4804', true);
 
-var feed = new Instafeed({
-            get: 'user',
-            userId: '61297986f6f54678aeab38fe448d773bs',
-            template: '<a href="{{link}}"><img class="insta-image" src="{{image}}" /></a>',
-            accessToken: 'superduperlongcodethatwillsithere'
-        });
-        feed.run();
+request.onload = function(container) {
+     if (request.status >= 200 && request.status < 400) {
+         // Success!
+         var data = JSON.parse(request.responseText);
+
+         for (var i=0;i < data.data.length;i++) {
+
+               // // load 6 images 
+               // var sixCreationImages = document.getElementsByClassName('creations-img'); 
+               // var imgURL = data.data[i].images.standard_resolution.url;
+               // sixCreationImages[i].setAttribute('src',imgURL); s
+
+               // // default feed slider 
+               // var container = document.getElementById('insta-feed');
+               // var imgURL = data.data[i].images.standard_resolution.url;
+               // console.log(imgURL);
+               // var div = document.createElement('div');
+               // div.setAttribute('class','instapic');
+               // container.appendChild(div);
+               // var img = document.createElement('img');
+               // img.setAttribute('src',imgURL)
+               // div.appendChild(img);
+          }
+
+    console.log(data);
+     } else {
+          // nothing 
+     }
+};
+request.onerror = function() { /* connection error of some sort */ };
+request.send();
 
  </script>
 

@@ -202,11 +202,24 @@ http://www.templatemo.com/tm-515-eatery
     to {transform: rotate(360deg);}
   }
 
+/*---------------------------------------
+    instagram feed             
+-----------------------------------------*/
 
+
+.instapic {
+  display:inline-block;
+}
+
+.instapic  img {
+    width: 100px;
+  height: 100px;
+}
 
   /*---------------------------------------
       creations              
   -----------------------------------------*/
+
 
   .custom-navbar {
     border: none;
