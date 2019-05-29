@@ -155,7 +155,7 @@
                     <div class="col-md-12 col-sm-12">
                          <div class="section-title wow fadeInUp" data-wow-delay="0.1s" style="font-weight: 100;color:#757575">
                               <h2>Shop Tangles</h2>
-                              <h3 style="color:#bfbdbd"><em style="color:#77815c">Rental and maintenance plans available</em> for entertainment & storefronts.</h3>
+                              <h3 style="color:#bfbdbd">For desks, storefronts, and everywhere in between.</h3>
                     
                          </div>
                     </div>
@@ -216,6 +216,12 @@
                               <p>$49.99 - $69.99</p>
                          </div>
                     </div>
+
+                    <div class="col-md-12 col-sm-12">
+                         <div class="section-title wow fadeInUp" data-wow-delay="0.1s" style="font-weight: 100;color:#757575">
+                              <h3><strong style="color:#77815c">Rental and maintenance plans available</strong></h3>
+                         </div>
+                    </div>
                     
                </div>
           </div>
@@ -230,7 +236,8 @@
                     <div class="col-md-12 col-sm-12">
                          <div class="section-title wow fadeInUp" data-wow-delay="0.1s">
                               <h2>Recent Creations</h2>
-                              <h4>Upcoming workshops offer the ability to create your own small gardens.  Themes will be a variety of forest tangles, gulch or rivers edge, Zen and basic garden.</h4>
+                              <h3 style="color:#bfbdbd">Upcoming workshops offer the ability to create your own small gardens.</h3>
+                              <h3 style="color:#bfbdbd">Themes will be a variety of forest tangles, gulch or rivers edge, Zen and basic garden.</h3>
                          </div>
                     </div>
 
@@ -351,6 +358,10 @@
 
                </div>
           </div>
+     </section>
+
+     <section id="test">
+          <div id="instafeed"></div>
      </section>
 
 
@@ -563,6 +574,18 @@
           </div>
      </footer>
  -->
+
+ <script>
+      
+var feed = new Instafeed({
+            get: 'user',
+            userId: '61297986f6f54678aeab38fe448d773bs',
+            template: '<a href="{{link}}"><img class="insta-image" src="{{image}}" /></a>',
+            accessToken: 'superduperlongcodethatwillsithere'
+        });
+        feed.run();
+
+ </script>
 
      <!-- SCRIPTS -->
      <script src="js/jquery.js"></script>
