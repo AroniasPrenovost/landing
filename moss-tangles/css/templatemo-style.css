@@ -72,7 +72,7 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   a:hover, a:active, a:focus {
-    color: #77815c;
+    color:#b6d369 !important;
     outline: none;
   }
 
@@ -152,6 +152,10 @@ http://www.templatemo.com/tm-515-eatery
     transition: 0.5s 0.2s;
   }
 
+  .section-btn:hover {
+      background: #b6d369 !important;
+      color:#2e5266 !important;
+  }
 
 
   /*---------------------------------------
@@ -751,8 +755,8 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   #contact button#cf-submit:hover {
-    background: #292929;
-    color: #ffffff;
+    background: #b6d369;
+    color:#2e5266 !important;
   }
 
 
