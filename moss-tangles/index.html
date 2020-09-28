@@ -452,23 +452,26 @@
           <hr>
           <div class="container">
                <div class="col-md-12 col-sm-12">
+                    <p class="wow fadeInUp" data-wow-delay="0.4s" style='text-align:center'>Follow us on Instagram!</p>
                     <ul style="text-align: center;padding-top:40px" class="wow fadeInUp social-icon" data-wow-delay="0.4s">
-                         <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
-                         <li><a href="#" class="fa fa-twitter"></a></li>
-                         <li><a href="#" class="fa fa-instagram"></a></li>
-                         <li><a href="#" class="fa fa-google"></a></li>
+                         <li><a target="_blank" href="https://www.instagram.com/mosstangles/" class="fa fa-instagram"></a></li>
                     </ul>
                     <div style="text-align: center" class="wow fadeInUp copyright-text" data-wow-delay="0.8s"> 
-                         <p><br>Copyright &copy; 2019 Moss Tangles</p>
+                         <p id='date'></p>
                     </div>
                </div>
           </div>
      </section>
 
-<!-- <div id="insta-feed">
-</div> -->
+<script>
+     document.getElementById('date').innerHTML = '<br>Copyright &copy; ' + new Date().getFullYear() + ' Moss Tangles'; 
+</script>
+
+<div id="insta-feed">
+     <!-- pictures here --> 
+</div> 
  
-<!--  <script>
+<script>
 var request = new XMLHttpRequest();
      request.open('GET', 'https://api.instagram.com/v1/users/self/media/recent/?access_token=14031756587.1677ed0.a635f592d003409db08cb246133d4804', true);
 
@@ -490,15 +493,13 @@ request.onload = function(container) {
                img.setAttribute('src',imgURL)
                div.appendChild(img);
           }
-
-    console.log(data);
      } else {
-          // nothing 
+          console.log('request failed');
      }
 };
 request.onerror = function() { /* connection error of some sort */ };
 request.send();
- </script> -->
+ </script>
 
      <!-- SCRIPTS -->
      <script src="js/jquery.js"></script>
